@@ -13,6 +13,8 @@ class FirstViewController: UIViewController {
     
     @IBOutlet weak var Email: UILabel!
     
+    
+    
     @IBOutlet weak var txtField: UITextField!
     
     
@@ -52,7 +54,7 @@ class FirstViewController: UIViewController {
     
     @IBAction func switchControl(_ sender: UISwitch)
     {
-        UserDefaults.standard.set(txtField.text, forKey: "name")
+        UserDefaults.standard.set(txtField.text,forKey: "name")
     }
     
     

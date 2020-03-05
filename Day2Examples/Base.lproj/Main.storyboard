@@ -29,6 +29,9 @@
                                 <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="txtField:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="rZI-jd-SuZ"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAo-l5-Cu5">
                                 <rect key="frame" x="46" y="342" width="81" height="26"/>
@@ -71,7 +74,7 @@
                         <outlet property="Email" destination="sMV-Hm-JnK" id="nZx-Vw-woB"/>
                         <outlet property="login" destination="ASC-XW-pHd" id="3iJ-UX-wt4"/>
                         <outlet property="passWord" destination="oAo-l5-Cu5" id="1sc-3R-Krs"/>
-                        <outlet property="txtField" destination="bFh-EX-sa2" id="iat-RH-2Vw"/>
+                        <outlet property="txtField" destination="bFh-EX-sa2" id="F2T-Te-kvW"/>
                         <outlet property="txtField2" destination="6mW-yU-fB3" id="kae-ct-bpu"/>
                     </connections>
                 </viewController>
